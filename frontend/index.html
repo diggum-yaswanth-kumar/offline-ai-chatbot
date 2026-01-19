@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Offline AI Chatbot</title>
+
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="dark">
+
+<div class="chat-container">
+    <div class="chat-header">
+        <span class="bot-icon">🤖</span>
+        <h2>Offline AI Chatbot</h2>
+
+        <select id="model">
+            <option value="llama3.1:8b-instruct-q4_K_M">LLaMA 3.1</option>
+            <option value="qwen2.5:7b">Qwen 2.5</option>
+        </select>
+
+        <button class="toggle" onclick="toggleTheme()">🌙</button>
+    </div>
+
+    <div id="chat-box"></div>
+
+    <div class="input-area">
+        <input
+            type="text"
+            id="user-input"
+            placeholder="Type your message..."
+            onkeydown="handleEnter(event)"
+        />
+        <button onclick="sendMessage()">Send</button>
+    </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
