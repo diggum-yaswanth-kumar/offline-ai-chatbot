@@ -5,21 +5,21 @@ This project provides a ChatGPT-like experience with a modern UI, streaming resp
 
 **✨ Features**
 
-1.🔒 Fully Offline AI Chatbot
+1.Fully Offline AI Chatbot
 
-2.🤖 Uses local LLMs via Ollama
+2.Uses local LLMs via Ollama
 
-3.🔁 Model switching (LLaMA 3.1 / Qwen)
+3.Model switching (LLaMA 3.1 / Qwen)
 
-4.💬 Streaming typing effect (ChatGPT-like)
+4.Streaming typing effect (ChatGPT-like)
 
-5.🌙 Dark / Light mode toggle
+5.Dark / Light mode toggle
 
-6.⌨️ Keyboard support (Press Enter to send)
+6.Keyboard support (Press Enter to send)
 
-7.🎨 Clean, modern, centered UI
+7.Clean, modern, centered UI
 
-8.⚡ FastAPI-based backend
+8.FastAPI-based backend
 
 **🛠️ Tech Stack**
 
